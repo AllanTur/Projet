@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    color: rgba(0, 0, 0, .87);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.8;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    padding: 30px 87px;
+}
+
+.topbar nav {
+    float: left;
+}
+
+.topbar nav a {
+    color: #9F9F9F;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 53px;
+}
+
+.topbar nav a:hover, .topbar nav a.active {
+    color: #000;
+}
+
+.social {
+    float: right;
+}
+
+.social a{
+    padding: 0 12px;
+    opacity: .5;
+}
+
+.social a:hover {
+    opacity: 1;
+}
+
+.social a img {
+    width: 23px;
+    height: 23px;
+}
+
+.banniere {
+    height: 427px;
+    background: no-repeat center center / cover url("img/header.jpg");
+}
