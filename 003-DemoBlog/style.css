@@ -10,7 +10,6 @@ body, html {
     font-family: "Montserrat", sans-serif;
     line-height: 1.6;
     font-weight: 500;
-    background: #fbfbfb;
 }
 
 /* HEADER */
@@ -67,8 +66,12 @@ body, html {
 
 /* MAIN */
 
+.body {
+    display: flex;
+}
+
 .main {
-    float: left;
+    
     background: #FFF;
     width: calc(100% - 375px);
     box-shadow: 0 4px 30px rgba(0, 0, 0, .05);
@@ -129,12 +132,12 @@ body, html {
 
 .sidebar {
     position: relative;
-    float: right;
     background: #fbfbfb;
     width: 375px;
     padding: 40px;
     font-size: 17px;
     z-index: 1;
+    background: #fbfbfb;
 }
 
 .sidebar-title {
