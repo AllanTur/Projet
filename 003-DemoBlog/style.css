@@ -8,8 +8,10 @@ body {
     font-size: 16px;
     color: rgba(0, 0, 0, .87);
     font-family: "Montserrat", sans-serif;
-    line-height: 1.8;
+    line-height: 1.6;
 }
+
+/* HEADER */
 
 .topbar {
     position: fixed;
@@ -57,4 +59,78 @@ body {
 .banniere {
     height: 427px;
     background: no-repeat center center / cover url("img/header.jpg");
+}
+
+/* MAIN */
+
+.main {
+    float: left;
+    height: 200px;
+    background: #9F9F9F;
+    width: calc(100% - 375px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .05);
+    z-index: 2;
+    position: relative;
+}
+
+/* SIDEBAR */ 
+
+.sidebar {
+    position: relative;
+    float: right;
+    background: #fbfbfb;
+    width: 375px;
+    padding: 40px;
+    font-size: 17px;
+    z-index: 1;
+}
+
+.sidebar-title {
+    font-size: 30px;
+    color: #000;
+    margin: 15px 0;
+}
+
+.sidebar-title:first-child {
+    margin-top: 0;
+}
+
+.sidebar a {
+    color: #9F9F9F;
+    text-decoration: none;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 6px 0;
+}
+
+.sidebar li:first-child {
+    padding-top: 0;
+}
+
+.sidebar li:last-child {
+    padding-bottom: 0;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar hr {
+    border: none;
+    background: #C4C4C4;
+    height: 1px;
+    margin: 50px 0;
+}
+
+/* FOOTER */
+
+.footer {
+    clear: both;
 }
